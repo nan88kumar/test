@@ -1,0 +1,57 @@
+Informatica work flow command 
+export INFA_DEFAULT_DOMAIN_PASSWORD=pPwryeJXwcJfV9Q0LessvLeQrA2J8Q2cTfv/Wv1sHMk=
+/home/infadev/server/10.2.1/isp/bin/infacmd.sh wfs startworkflow -dn INFA_DOM_DEV -sn INFA_DIS_DEV -un bally -a  App_AP_Load_Resp_Match -wf  wf_GL_Load_Resp_Match -w true -osp infadev
+
+
+Segment count validation
+7- saks
+5 -LT 
+6 -HBC
+'' -no translation and already in new format (new fusion segment)
+
+
+Decryption code
+'STasiD67_$AmMvP1zx'
+
+/usr/local/bin/pgp --decrypt  Resp.481680.ExportBulkData_AccountingPeriods.zip.pgp --passphrase 'GZdInS18_$tmlSCQ3ips' --tmp /pgp/csftpof/ORAFIN/;
+/usr/local/bin/pgp --decrypt Resp.481680.ExportBulkData_AccountingPeriods.zip.pgp --passphrase 'STasiD67_$AmMvP1zx' --tmp /pgp/csftpof/ORAFIN/;
+
+STasiD67_$AmMvP1zx
+/usr/local/bin/pgp --encrypt SFAU_BAI2_02132019.txt --passphrase 'STasiD67_$AmMvP1zx' --tmp /pgp/csftpof/ORAFIN/;
+
+
+sed -i -e  's/13022018/13122018/g' ${Tmp_Dir}/${Src_File}_Dtl.dat
+
+/usr/local/bin/pgp --encrypt SFAU_BAI2_02062019.txt --user '011519_151416_eedj_test' --armor --output /pgp/csftpof/ORAFIN/SITout/processing/SFAU_BAI2_02062019.txt.gpg --tmp /pgp/csftpof/ORAFIN/
+
+
+/usr/local/bin/pgp --encrypt test_file --user '041719_144941_ecjm_dev6' --armor --output test_file.txt.gpg --tmp /pgp/csftpof/ORAFIN/
+
+CSPAC.PRD.ESPPROC(AGLLKCOA)
+AAPRLKPX
+AAPRLKPY 
+
+
+25-03-2019
+
+Execute ESP Job API-I-URL - AP-E-C01 AP-DFM URL (invoice image)
+AAPFIURL
+AAPRIURL
+
+LTSAKS_BAML_377207.txt.pgp
+
+IIB DEV- jxn-ux-mwiib1d JXN-UX-MWIIB1D
+
+change the script path ,old-app TAPIO111,TCEIIC03,TCEII201
+
+
+/app/fin/p2/outbound
+/app/fin/scripts/
+
+
+sh sftp_LOOKUP_get.sh csftpof 10.1.38.26 Sta#13D1n /pgp/csftpof/ORAFIN/SITout/processing LOOKUP_CCOA_ /app/fin/target test1234.csv
+
+YSMCZ.PRD.ESPPROC.FINPH2	
+YSMCZ.PRD.ESPPROC.FINPH2.FTPID	
+YSMCZ.PRD.ESPPROC.FINPH2.UAT	
+YSMCZ.PRD.ESPPROC.FINPH2.UAT.FTPID	
